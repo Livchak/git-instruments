@@ -41,13 +41,12 @@
 
 4. `Найдите коммит, в котором была создана функция func providerSource, её определение в коде выглядит так: func providerSource(...) (вместо троеточия перечислены аргументы)`
 
-**git-instruments-2.4** 
+**git-instruments-2.4**  
 <img src = "img/2.png" width = 80%>
 
 5. `Найдите все коммиты, в которых была изменена функция globalPluginDirs` 
 
-коммандой git grep globalPluginDirs мы ищем в каких файлах была упомянута функция  
-файл plugins.go был изменён в следующих коммитах
+коммандой "git grep globalPluginDirs" мы ищем в каких файлах была упомянута функция файл "plugins.go" был изменён в следующих коммитах  
     commit 8364383c359a6b738a436d1b7745ccdce178df47  
     commit 66ebff90cdfaa6938f26f908c7ebad8d547fea17  
     commit 41ab0aef7a0fe030e84018973a64135b11abcd70  
